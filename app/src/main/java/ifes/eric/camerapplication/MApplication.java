@@ -1,4 +1,5 @@
 package ifes.eric.camerapplication;
+
 import android.app.Application;
 import android.content.Context;
 
@@ -22,5 +23,4 @@ public class MApplication extends Application {
         super.onCreate();
         fpvDemoApplication.onCreate();
     }
-
 }
